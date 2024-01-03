@@ -67,6 +67,10 @@ Container is configured using parameters passed at runtime:
 | `-v /config` | Where the config files stores. |
 | `-v /downloads` | Where your download destination. |
 
+## Future Plan:
+- [] Support custom schedule
+- [] Support adhoc kick off
+- [] Support config via environment variable
 
 
 ## Reference
