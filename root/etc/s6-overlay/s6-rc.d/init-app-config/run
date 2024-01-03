@@ -1,0 +1,12 @@
+#!/usr/bin/with-contenv bash
+# shellcheck shell=bash
+
+mkdir -p /config/logs
+touch /config/logs/app.log
+
+# permissions
+lsiown -R abc:abc \
+    /config/logs
+
+lsiown -R abc:abc \
+    /app
