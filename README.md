@@ -62,7 +62,6 @@ Container is configured using parameters passed at runtime:
 
 | Parameter | Function |
 | :----: | --- |
-| `-p 8083` | WebUI |
 | `-e PUID=1000` | for UserID |
 | `-e PGID=1000` | for GroupID |
 | `-v /config` | Where the config files stores. |
