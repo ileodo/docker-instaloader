@@ -6,7 +6,7 @@ touch /config/logs/app.log
 
 # permissions
 lsiown -R abc:abc \
-    /config/logs
+    /config
 
 lsiown -R abc:abc \
     /app
