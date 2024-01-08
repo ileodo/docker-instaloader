@@ -1,2 +1,2 @@
 # min   hour    day     month   weekday command
-*     */6       *       *       *       /app/run.sh >> /config/logs/app.log 2>&1
+30     */2       *       *       *       /app/run.sh >> /config/logs/app.log 2>&1
