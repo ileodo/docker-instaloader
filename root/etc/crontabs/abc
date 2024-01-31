@@ -1,2 +1,2 @@
 # min   hour    day     month   weekday command
-15     8-22/2    *       *       *      ${RANDOM:0:2}m ; /app/run.sh >> /config/logs/app.log 2>&1
+15     8-22/2    *       *       *      sleep ${RANDOM:0:2}m ; /app/run.sh >> /config/logs/app.log 2>&1
