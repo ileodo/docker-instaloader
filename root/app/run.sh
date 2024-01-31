@@ -7,5 +7,5 @@ echo $(date)
 echo $args
 echo $targets
 echo "Start"
-(cd /downloads && /lsiopy/bin/instaloader $args $targets)
+(cd /downloads && /lsiopy/bin/instaloader +/config/args $targets)
 echo "End"
